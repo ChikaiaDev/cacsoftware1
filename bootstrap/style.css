@@ -49,10 +49,11 @@ html, body{
     width: 100%;
 }
 #fixed{
+    background: url(img/laptop-coffee-computer-the-work-preview.jpg) no-repeat center center fixed;
     display: table;
-    max-height: 200px;
+    height: 60%;
     position:relative;
-    max-width: 768px;
+ width: 100%;
     background-size: cover;
 }
 footer{

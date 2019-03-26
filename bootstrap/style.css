@@ -1,90 +1,95 @@
-html, body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-.navbar{
-    font-size: 1.2em;
-    padding: 1% 0;
-    position: sticky;
-
+.navbar {
+  font-size: 1.2em;
+  padding: 1% 0;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
 }
-.navbar-brand{
-    max-height: 35px;
-    padding: 0px 15px 5px;
+.navbar-brand {
+  max-height: 35px;
+  padding: 0px 15px 5px;
 }
 .navbar-default .navbar-nav li a {
-    color: #D5D5D5;
-
+  color: #d5d5d5;
 }
-.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
-    color: #FFF;
-
-}
-
-#home{
-    background: url(../img/coffee-laptop.jpeg) no-repeat center center fixed;
-    height: 50%;
-    width: 100%;
-    display: table;
-    position: relative;
-    background-size: cover;
-
-   
-}
-.landing-text{
-    color: beige;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-.landing-text h1{
-    font-size: 500%;
-    font-weight: 700;
-}
-.padding{
-    padding:40px 0;
-}
-.padding img{
-    width: 100%;
-}
-#fixed{
-    background: url(../img/laptop-coffee-computer-the-work-preview.jpg) no-repeat center center fixed;
-    display: table;
-    height: 60%;
-    position:relative;
-    width: 100%;
-    background-size: cover;
-}
-footer{
-    width: 100%;
-    background-color: #212529;
-    padding: 5% 5% 10% 5%;
-    color: #fff;
-}
-.fa{
-    padding: 15px;
-    color: #fff;
-    font-size: 25px;
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a.active {
+  color: #fff;
 }
 
-.fa:hover{
-color: #212529;
-text-decoration: none;
-} 
-footer, ul{
-    list-style-type: none;
-    text-decoration: none;
+#home {
+  background: url(../img/coffee-laptop.jpeg) no-repeat center center fixed;
+  height: 50%;
+  width: 100%;
+  display: table;
+  position: relative;
+  background-size: cover;
 }
-footer, ul, li a{
-    text-align: center;
-   color: #FFF;
-    text-decoration: none;
-    display: block;
-    padding: 8px 16px;
+.landing-text {
+  color: beige;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-footer, ul, li a:hover {
-    text-align: center;
-   color: rgb(228, 227, 227);
-    text-decoration: none;
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+}
+.padding {
+  padding: 40px 0;
+}
+.padding img {
+  width: 100%;
+}
+#fixed {
+  background: url(../img/laptop-coffee-computer-the-work-preview.jpg) no-repeat
+    center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+footer {
+  width: 100%;
+  background-color: #212529;
+  padding: 5% 5% 10% 5%;
+  color: #fff;
+}
+.fa {
+  padding: 15px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.fa:hover {
+  color: #212529;
+  text-decoration: none;
+}
+footer,
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+footer,
+ul,
+li a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+}
+footer,
+ul,
+li a:hover {
+  text-align: center;
+  color: rgb(228, 227, 227);
+  text-decoration: none;
 }

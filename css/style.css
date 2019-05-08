@@ -1,0 +1,300 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar-brand{
+    height: 100%;
+    width:relative;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 0px;
+}
+.navbar-default .navbar-nav li a {
+    background-color: rgb(0,162,232);
+
+}
+
+.collapse ul{
+display: inline-block;
+padding: 20px 10px 20px 10px;
+text-transform: uppercase;
+}
+
+
+/* ------------------------------------------------------------------------------
+   Social 
+-------------------------------------------------------------------------------*/
+
+.social {
+    display: inline-block;
+    width:100%;
+
+}
+.social li {
+    display:inline-block;
+    padding-right: .8em;
+    margin-top: 5px;
+}
+.social li:last-child {
+    padding-right: 0;
+}
+.social li a i{
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+    background: rgba(255,111,18,.8);
+    position: relative;
+ -webkit-transition: all .8s ease;
+ transition: all .8s ease;
+}
+.social li a i:hover {
+    color: #fff;
+    background: rgb(0,162,232);
+}
+.nav-link{
+    color: rgb(0,0,0);
+    font-family:Century Gothic;
+    cursor: pointer;
+}
+.navbar-nav ul li a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-link:hover{
+    background-color: rgb(255,172,5);
+    border-radius: 1px;
+    color: rgb(255,255,255);
+    font-size:15px;
+}
+/*.nav ul{
+    display: inline-block;
+    position: absolute;
+    right:0;
+}
+.nav button{
+    background-color: rgb(249,111,18);
+    width:40px;
+    height:40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:30px;
+}
+.nav ul li a{
+    text-transform: uppercase;
+}
+.nav ul li{
+    position:right;
+}
+.nav ul li:hover{
+    background-color: rgb(249,111,18);
+    border-radius: 5px 5px 5px 5px;
+    color: rgb(255,0,0);
+}*/
+.home{
+    background: url(../img/dark-overlay.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: relative;
+    padding:120px 0px 100px 0px;        
+    margin:0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.landing-text{
+    font-family: Century Gothic;
+    text-align: center;
+}
+.landing-text h1{
+    color: rgb(255,255,255);
+    font-weight: 700;
+    font-size:40px;
+}
+.landing-text h3 {
+    color: rgb(0,162,232);
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+}
+.loc-abt p{
+    font-size:15px;
+    color: rgb(0,0,0);
+}
+.loc-abt h2{
+    text-align: center;
+    color:rgb(0,162,232);
+}
+.circle{
+    width:relative;
+    height:70px;
+    margin-top: 0px;
+}
+.scroll-down{
+    border: 2px rgba(0,162,232,.9) solid;
+    border-radius: 1px 1px 1px 1px;
+    width:40px;
+    height: 40px;
+    color: rgb(255,255,255);
+    font-size:18px;
+    text-align: center;
+    background-color: rgba(0,162,232,.6);
+    cursor:pointer;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    padding: 10px 10px 10px 10px;
+}
+.scroll-down:hover{
+    border: none;
+    width:45px;
+    height: 45px;
+    font-size: 20px;
+    background-color: rgba(255,111,18,.9);
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,.5);
+    color:rgb(255,255,255);
+    padding: 12px 10px 8px 10px;
+}
+.our-services{
+    font-family: Century Gothic;
+    text-align: center;
+}
+.our-services h1{
+    color: rgb(255,255,255);
+    padding: 20px 0 0 0;
+    font-weight: 700;
+}
+.our-services p{
+    color: rgb(255,255,255);
+}
+.divider{
+    background-color: rgb(255,172,5);
+    width:relative;
+    height:2px;
+    margin: 5px 0 10px 0;
+}
+.divider-two{
+    background-color: rgb(0,162,232);
+    width:relative;
+    height:2px;
+    margin: 5px 0 10px 0;
+}
+.main{
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(0,162,232);
+}
+.padding{
+    margin: 0px 0px 0px 0px;
+    padding:40px 0px 0px 0px;
+    font-family: Century Gothic;
+    font-size: 15px;
+}
+.padding img{
+    width: 100%;
+}
+
+
+.web-design{
+    font-family: Century Gothic;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.design-abt p{
+    font-size: 15px;
+    color:rgb(255,255,255);
+}
+.design-abt h2{
+    color: rgb(255,255,255);
+    font-weight: 500;
+}
+#fixed{
+    background: url(../img/laptop-coffee-computer-the-work-preview.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    display: table;
+    height: 70%;
+    position:relative;
+    width: 100%;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+}
+.fixed-overlay{
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,.5);
+    text-align:center;
+    font-family: Century Gothic;
+}
+.fixed-overlay h2{
+    color:rgb(255,255,255);
+    padding-top: 50px;
+}
+.carousel{
+    padding-top: 30px;
+    height:70%;
+}
+.carousel-inner{
+    color:rgb(255,255,255);
+    text-align:center;
+    font-size:20px;
+}
+footer{
+    width: 100%;
+    background-color: #212529;
+    padding: 5% 5% 10% 5%;
+    color: #fff;
+}
+.fa{
+    padding: 15px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.fa:hover{
+color: #212529;
+text-decoration: none;
+} 
+footer, ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+footer, ul, li a{
+    text-align: center;
+   color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+}
+footer, ul, li a:hover {
+    text-align: center;
+   color: rgb(228, 227, 227);
+    text-decoration: none;
+}
+
+.section-two{
+    background-color: rgb(255,172,5);
+    color:rgb(255,255,255);
+    width:relative;
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-family: Century Gothic;
+    text-align: center;
+}
+.section-two p{
+    color: rgb(8,8,8);
+}
+.section-two h4{
+    font-size:18px;
+}
+.section-two ul li{
+    color:rgb(8,8,8); 
+}

@@ -63,12 +63,29 @@
     <div class="collapse navbar-collapse" id="menu" >
       <ul class="nav navbar-nav navbar-right">
         <li class="navbar-item nav-link"><a href="#">Home</a></li>
-        <li class="nav-link"><a href="#">Get Quote</a></li>
+        <li class="nav-link"><a href="#" id="button">Get Quote</a></li>
         <li class="nav-link"><a href="contact.html">Contact Us</a></li> 
       </ul>
     </div>
   </div>
 </nav>
+
+<div class="bg-modal">
+    <div class="modal-contents">
+
+        <div class="close">+</div>
+        <img src="img/user.png" alt="">
+
+        <form action="">
+            <p style="color:darkblue;">Talk to us</p>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="E-Mail">
+            <input type="Message" placeholder="Message">
+            <a href="#" class="button">Submit</a>
+        </form>
+
+    </div>
+</div>
 
 
 <div class="main col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -126,26 +143,32 @@
           <div class="item active col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="description1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h class="text-warning"> Web design and development </h>
+                  <p>We develop web admin portals for managing content, users, reports, etc.
+                      We also develop dynamic, social & mobile responsive websites for companies, organisations and individuals.
+                      We do our best to offer the best web design services in Kenya and help visualise Vision 2030.</p>
                 </div>
               </div></div>
 
               <div class="item col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="description1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <p>Andika kitu hapa consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h class="text-warning"> Mobile Application </h>
+                    <p>Today, there is an App for nearly everything, we help create apps for your needs.
+                        PieSwitch is here for Android Apps Development.
+                        Our experience cuts across health, finance, transport, entertainment, agriculture, insurance, etc.</p>
                 </div>
               </div></div>
+
+            <div class="item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="description1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h class="text-warning"> System Configurations </h>
+                        <p>We help clients in configuring various systems in their organization such as email configurations, creating
+                            and configuring databases.
+                        </p>
+                    </div>
+                </div></div>
 
    
             <div class="item col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -241,3 +264,13 @@
 
   </body>
 </html>
+
+<script>
+    document.getElementById('button').addEventListener("click", function() {
+        document.querySelector('.bg-modal').style.display = "flex";
+    });
+
+    document.querySelector('.close').addEventListener("click", function() {
+        document.querySelector('.bg-modal').style.display = "none";
+    });
+</script>

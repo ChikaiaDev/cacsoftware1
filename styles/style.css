@@ -13,3 +13,7 @@ html, body {
 select:hover {
     cursor: pointer;
 }
+
+img{
+    height: 90px;
+}
